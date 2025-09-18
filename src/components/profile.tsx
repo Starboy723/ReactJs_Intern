@@ -18,7 +18,7 @@ export default function Profile(){
                 <p>Account Settings</p>
             </section>
             <section className="profile-data">
-                    <img src={file} width={"76px"} height={"76px"} className="dp"></img>
+                    <img src={file} style={{borderRadius:"50%"}} width={"76px"} height={"76px"} className="dp"></img>
                     <input type="file" id="fileInput" style={{display:"none"}} onChange={handleFileChange}></input>
                     <label htmlFor="fileInput">
                     <img src={input_img} width={"21px"} alt="upload"  height={"23px"} className="input"></img>
