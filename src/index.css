@@ -1,0 +1,16 @@
+@font-face {
+    font-family: rubikMedium;
+    src: url("./assets/Rubik-Medium.ttf");
+}
+@font-face {
+    font-family: rubikRegular;
+    src: url("./assets/Rubik-Regular.ttf");
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+*::-webkit-scrollbar{
+    display:none;
+}

@@ -1,0 +1,66 @@
+.landing-container{
+    background-color: white;
+    width:100vw;
+    height:812px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.landing-div{
+    width:375px;
+    height: 812px; 
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    font-family:rubikRegular;
+    position: relative;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    border:2px solid rgba(128, 128, 128, 0.194);
+}
+.landing-div .welcome-text{
+    position:absolute;
+    top:549px;
+    left:20px;
+    font-family:rubikMedium;
+    font-size: 28px;
+}
+.landing-div .desc{
+    position:absolute;
+    top:592px;
+    left:20px;
+    font-size: 18px;
+    color:#1D2226;
+    opacity:0.6;
+}
+.landing-div .signup-btn{
+    position:absolute;
+    width:335px;
+    height:46px;
+    top:669px;
+    left:20px;
+    background: #6C25FF 0% 0% no-repeat padding-box;
+    text-align:center;
+    font-family:rubikMedium;
+    font-size:16px;
+    color:white;
+    border:none;
+    border-radius:6px;
+}
+.landing-div .login-btn{
+    position:absolute;
+    top:725px;
+    left:20px;
+    width:335px;
+    height:46px;
+     font-family:rubikMedium;
+    font-size:16px;
+    background: #6C25FF4B 0% 0% no-repeat padding-box;
+    border:none;
+    border-radius:6px;
+}
+.btns{
+    transition: transform 0.3s ease-out;
+}
+.btns:hover{
+    transform:scale(1.01);
+}
