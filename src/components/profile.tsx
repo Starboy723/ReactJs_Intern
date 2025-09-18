@@ -1,5 +1,4 @@
 import "./styles/profile.css";
-import dp_img from "../assets/Ellipse 114.png";
 import input_img from "../assets/Group 1585.png";
 import { useState } from "react";
 
